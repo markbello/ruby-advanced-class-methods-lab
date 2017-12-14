@@ -28,7 +28,7 @@ class Song
     song.name = name
     @@all << song
     song
-    #binding.pry
+
   end
 
   def self.create_by_name(name)
@@ -36,7 +36,7 @@ class Song
     song.name = name
     @@all << song
     song
-    #binding.pry
+    
   end
 
   def self.find_by_name(name)
